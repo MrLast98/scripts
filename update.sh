@@ -1,8 +1,8 @@
 #!/bin/bash
-pacaur -Syyu --noconfirm --noprogressbar --needed
-paccache -ruk0 && paccache -rk0 
-paccache -ruk2 && paccache -rk1 
-paccache -ruk2 && paccache -rk2 
-pacman -Rscn $(pacman -Qttdq) --noconfirm --noprogressbar
-pacman -Scc --noconfirm --noprogressbar --needed
-pacman-optimize && sync
+sudo pacman -Syu
+sudo paccache -ruk0 && sudo paccache -rk0 
+sudo paccache -ruk1 && sudo paccache -rk1 
+sudo paccache -ruk2 && sudo paccache -rk2 
+sudo pacman -Rscn $(pacman -Qttdq)
+sudo pacman -Scc
+sudo pacman-optimize && sudo sync
