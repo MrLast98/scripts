@@ -1,0 +1,17 @@
+#WAKELOCKS
+*net_scheduler* ~ 3 600 000 ms
+CMWakeLock ~ 900 000 ms
+GCoreFlp ~ 900 000 ms
+Icing ~ 3 600 000 ms
+LocationManagerService ~ 900 000 ms
+NetworkStats ~ 900 000 ms
+NfcService:mRoutingWakeLock ~ 3 600 000 ms
+NlpCollectorWakeLock ~ 900 000 ms
+NlpWakelock ~ 900 000 ms
+RILJ ~ 900 000 ms [WARNING: Do NOT block this wakelock if you have Android Oreo 8+ or it will bootloop]
+SyncLoopWakeLock ~ 900 000 ms
+UlrDispSvcFastWL ~ 900 000 ms
+ULR_BarometerReading_WakeLock ~ 900 000 ms
+Wakeful StateMachine: GeofencerStateMachine ~ 900 000 ms
+wake:com.google.android.gms/measurement.PackageMeasurementService ~ Disable
+[EXPERIMENTAL] Anything with "Analytics" in the name ~ Disable
